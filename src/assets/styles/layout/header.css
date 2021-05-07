@@ -31,30 +31,45 @@ img.header-logo-inv {
   margin-left: auto;
   position: relative;
   z-index: var(--z-index-navicon);
-  background-color: transparent;
   border: 0;
+  background-color: transparent;
   padding: 0;
+  margin-top: 3px;
 }
 .header-nav-icon img {
   color: var(--secondary-8);
 }
-
 .hamburger-inner, 
 .hamburger-inner::before, 
 .hamburger-inner::after {
   background-color: var(--primary);
   border-radius: 1px;
   height: 5px;
+  right: 0;
+  width: 40px;
 }
 /* No puedo alinear todo a la derecha para que quede como en wireframe 
 .hamburger-inner {
   width: 20px;
   margin-left: auto;
+  ----> Habia que poner "right 0" duh
 } */
+.hamburger-inner {
+  width: 30px;
+}
+.hamburger-inner::after {
+  width: 20px;
+}
 .hamburger--spring.is-active .hamburger-inner::before,
 .hamburger--spring.is-active .hamburger-inner::after,
 .hamburger--spring.is-active .hamburger-inner {
   background-color: var(--secondary-light);
+  width: 40px;
+}
+.hamburger-box:hover .hamburger-inner,
+.hamburger-box:hover .hamburger-inner::before,
+.hamburger-box:hover .hamburger-inner::after {
+  background-color: var(--secondary);
 }
 
 @media (max-widht: 700px) {
