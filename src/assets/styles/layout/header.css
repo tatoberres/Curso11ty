@@ -14,7 +14,7 @@
   display: block;
 }
 .header-logo {
-  width: 150px;
+  width: 100px;
   position: relative;
   z-index: var(--z-index-logo);
 }

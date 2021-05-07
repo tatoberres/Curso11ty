@@ -17,6 +17,7 @@
       <div class="nav col-12">
         {%- for elemento in navPages %}
           <a href="{{ elemento.url | url }}"
+            class="text-headline"
             {% if elemento.url == page.url %} class="active"{% endif %}
           >
             {{ elemento.title }}
