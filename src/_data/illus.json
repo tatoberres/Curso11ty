@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Ejemplo 1",
+    "imagen": "illus1.jpg",
+    "posicion": "completa",
+    "desc": "Un día de ciudad"
+  },
+  {
+    "nombre": "Ejemplo 2",
+    "imagen": "illus2.jpg",
+    "posicion": "completa",
+    "desc": "Un nido de temporada de Pascua"
+  },
+  {
+    "nombre": "Ejemplo 3",
+    "imagen": "illus3.jpg",
+    "posicion": "izquierda",
+    "desc": "Las buenas compañías"
+  }
+]

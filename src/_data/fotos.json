@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Ejemplo 2",
+    "imagen": "foto2.jpg",
+    "posicion": "completa"
+  },
+  {
+    "nombre": "Ejemplo 3",
+    "imagen": "foto3.jpg",
+    "posicion": "derecha"
+  },
+  {
+    "nombre": "Ejemplo 4",
+    "imagen": "foto4.jpg",
+    "posicion": "completa"
+  },
+  {
+    "nombre": "Ejemplo 5",
+    "imagen": "foto5.jpg",
+    "posicion": "izquierda"
+  },
+  {
+    "nombre": "Ejemplo 6",
+    "imagen": "foto6.jpg",
+    "posicion": "completa"
+  }
+]

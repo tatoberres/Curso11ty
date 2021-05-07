@@ -1,0 +1,32 @@
+---
+layout: layouts/fullwidth.njk
+title: Fotos
+eleventyNavigation:
+  key: fotos
+  title: fotos
+  order: 2
+---
+<div class="fotografia-hero">
+{% set cada = {"imagen": "foto1.jpg"} %}
+  {% include 'components/project.njk' %}
+</div>
+
+<div class="container grid fotografia-contenidos">
+
+  <div class="fotografia-titulo">
+    <h1 class="text-headline font-2">fotografía</h1>
+ </div>
+
+  <div class="fotografia-texto">
+    <p>La n-ième ligne de la grille contribue au placement de l'élément sur la grille. Si un entier négatif est utilisé, le comptage sera fait depuis la fin de la grille explicite.
+    Si un nom est fourni pour seules les lignes ayant ce nom seront comptées. S'il n'y a pas suffisamment de lignes existant avec ce nom, toutes les lignes implicites seront comptées afin de trouver la position.
+    </p>
+    <p>La n-ième ligne de la grille contribue au placement de l'élément sur la grille. Si un entier négatif est utilisé, le comptage sera fait depuis la fin de la grille explicite.
+    </p>
+  </div>
+
+  {% for cada in fotos %}
+    {% include 'components/project.njk' %}
+  {% endfor %}
+
+</div>

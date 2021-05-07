@@ -1,0 +1,16 @@
+{% set proyclase = "" %}
+
+{% if cada.posicion === "completa" %}
+    {% set proyclase = "full-width" %}
+{% elseif cada.posicion === "izquierda" %}
+    {% set proyclase = "left" %}
+{% else %}
+    {% set proyclase = "right" %}
+{% endif %}
+
+<div class="proyecto {{proyclase}} ">
+    <a data-fancybox="gallery" href="/assets/images/{{cada.imagen}}">
+        <img src="/assets/images/{{cada.imagen}}" alt="/assets/images/{{cada.nombre}}">
+    </a>
+</div>
+

@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Ilustración
+eleventyNavigation:
+  key: ilustracion
+  title: ilustración
+  order: 1
+---
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6">
+  {% for cada in illus %}
+    {% include 'components/project-ilus.njk' %}
+  {% endfor %}
+</div>
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 portafolio-texto">
+  <h1 class="text-headline font-2">ilustración</h1>
+  <p>La n-ième ligne de la grille contribue au placement de l'élément sur la grille. Si un entier négatif est utilisé, le comptage sera fait depuis la fin de la grille explicite.
+  Si un nom est fourni pour seules les lignes ayant ce nom seront comptées. S'il n'y a pas suffisamment de lignes existant avec ce nom, toutes les lignes implicites seront comptées afin de trouver la position.
+  </p>
+</div>
+  
+

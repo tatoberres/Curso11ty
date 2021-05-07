@@ -1,0 +1,41 @@
+.home-slide {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-title {
+    font-size: 10vw;
+    position: sticky;
+    top: 80px;
+    opacity: var(--home-title-opacity);
+}
+
+.home-subheader {
+    position: absolute;
+    bottom: var(--spacer-m);
+    right: var(--spacer-l);
+    font-size: var(--text-jumbo);
+    text-decoration: none;
+    color: var(--primary-8);
+    mix-blend-mode: hard-light;
+    transition: 0.3 all;
+}
+
+.home-subheader:hover {
+    opacity: 0.7;
+}
+
+.home-subheader-alt {
+    color: var(--primary-1);
+}

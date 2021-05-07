@@ -1,0 +1,28 @@
+.portafolio-texto {
+    padding-top: 20vh;
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+.portafolio-texto .text-headline {
+    line-height: 1.2;
+    margin-bottom: var(--spacer-l);
+}
+
+@media (max-width: 900px) {
+    .portafolio-texto .text-headline {
+        margin-bottom: var(--spacer-l)
+    }
+}
+@media (max-width: 700px) {
+    .portafolio-texto .text-headline {
+        margin-bottom: var(--spacer-m)
+    }
+}
+@media (max-width: 500px) {
+    .portafolio-texto {
+        order: -1;
+        position: static;
+    }
+}
